@@ -1,0 +1,630 @@
+@media (min-width: 1281px) {
+
+    .banner {
+        width: 100%;
+        padding: 14rem 0rem;
+        background-image: url(/imagenes/Euge-361.png);
+        background-size: cover;
+        background-position: center;
+    }
+
+
+    header {
+        position: sticky;
+        top: 0;
+        z-index: 999;
+    }
+
+    .container {
+        width: 100%;
+        height: 80px;
+        background-color: #CFBBC0;
+        display: flex;
+        align-items: center;
+        box-sizing: border-box;
+
+
+
+
+    }
+
+    nav {
+        padding: 0 17rem;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+    }
+
+    nav li {
+        list-style-type: none;
+        padding: 0;
+    }
+
+    nav li a:hover {
+        color: #D04969;
+
+        text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.30);
+        font-family: Inter;
+        font-size: 27px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        box-shadow: -4px -4px 4px 0px rgba(0, 0, 0, 0.10) inset, 4px 4px 8px 0px rgba(0, 0, 0, 0.10) inset;
+    }
+
+    nav li a {
+        color: #D04969;
+        text-decoration: none;
+        font-size: 24px;
+        box-sizing: border-box;
+        padding: 20px;
+        display: block;
+        font-family: Inter;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    }
+
+    .logo {
+        align-items: left;
+    }
+
+    .logo img {
+        height: 80px;
+    }
+
+
+
+
+    .visionymision {
+        margin: 60px 0;
+        background-color: #CFBBC0;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+
+
+
+    }
+
+    .textov {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 0;
+    }
+
+    .visionymision img {
+        flex: 1;
+        width: 419px;
+    }
+
+    .textov p {
+
+        color: #1E1E1E;
+        font-family: Inter;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 35px;
+        padding: 15px 50px;
+    }
+
+    .quiensoy {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 60px;
+    }
+
+    .titulo {
+        padding-left: 40px;
+        color: #D04969;
+        text-shadow: 4px 4px 15px rgba(0, 0, 0, 0.15);
+        font-family: Inter;
+        font-size: 25px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+
+    .contenidoq {
+        display: flex;
+        flex-direction: row;
+        background-color: #CFBBC0;
+        padding: 0 40px;
+    }
+
+    .contenidoq img {
+        flex: 1;
+        order: 2;
+        width: 400px;
+    }
+
+    .textoq {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .textoq p {
+        color: #1E1E1E;
+        font-family: Inter;
+        font-size: 21px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 30px;
+        /* 142.857% */
+    }
+
+    .clases {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    /* styles.css */
+    body,
+    html {
+        margin: 0;
+        padding: 0;
+        height: 100%;
+    }
+
+    .fondo {
+        background-color: #CFBBC0;
+        /* Color de fondo */
+        background-image: url('/imagenes/Euge-356.png');
+        /* Ruta de la imagen */
+        background-position: right top;
+        /* Posición de la imagen */
+        background-repeat: no-repeat;
+        /* No repetir la imagen */
+        height: 339px;
+        /* Altura fija del fondo */
+        width: 100%;
+        /* Ocupar el ancho completo de la pantalla */
+    }
+
+    .contenedor-cards {
+        position: relative;
+        /* Para posicionar las cards con respecto a este contenedor */
+        margin-top: 40px;
+        /* Espacio entre el fondo y las cards */
+        margin-left: 60px;
+        /* Espacio del margen izquierdo del fondo */
+        padding-right: 20px;
+        /* Espacio para la imagen en el fondo */
+    }
+
+    .card {
+        border-radius: 20px;
+        background: rgba(255, 255, 255, 0.60);
+        margin-bottom: 40px;
+        /* Espacio entre las cards */
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        /* Sombra de las cards */
+        width: calc(100% - 80px);
+        /* Ancho de las cards, teniendo en cuenta el padding-right y el margen izquierdo */
+        position: relative;
+        /* Para posicionar las flechas con respecto a las cards */
+    }
+
+    .titulo-card {
+        color: #D04969;
+        font-family: Inter;
+        font-size: 24px;
+        font-style: italic;
+        font-weight: 600;
+        line-height: 35px;
+        /* 145.833% */
+        padding: 10px;
+        position: relative;
+        cursor: pointer;
+    }
+
+    .flecha {
+        position: absolute;
+        padding-top: 12px;
+        right: 10px;
+        transition: transform 0.3s ease;
+        /* Animación para la rotación */
+    }
+
+    .contenido-card1 {
+        width: 550px;
+        height: 233px;
+        flex-shrink: 0;
+        border-radius: 0px 0px 20px 20px;
+        background: #D04969;
+        margin-top: -9px;
+        display: none;
+        position: absolute;
+        z-index: 1000;
+        /* Inicialmente ocultamos el contenido */
+    }
+
+    .contenido-card1 p {
+        color: #FFF;
+
+        font-family: Inter;
+        font-size: 20px;
+        font-style: italic;
+        font-weight: 600;
+        line-height: 35px;
+        padding: 10px;
+    }
+
+    .card1 {
+        width: 550px;
+        height: 60px;
+        flex-shrink: 0;
+    }
+
+    .card2 {
+        width: 730px;
+        height: 60px;
+    }
+
+    .contenido-card2 {
+        width: 730px;
+        height: 110px;
+        flex-shrink: 0;
+        margin-top: -9px;
+        border-radius: 0px 0px 20px 20px;
+        background: #D04969;
+        display: none;
+        position: absolute;
+        z-index: 1000;
+    }
+
+    .contenido-card2 p {
+
+        flex-shrink: 0;
+        color: #FFF;
+        font-family: Inter;
+        font-size: 20px;
+        font-style: italic;
+        font-weight: 600;
+        line-height: 35px;
+        padding: 10px;
+        /* 175% */
+    }
+
+
+    .card3 {
+        width: 1000px;
+        height: 60px;
+        flex-shrink: 0;
+    }
+
+    .contenido-card3 {
+        width: 1000px;
+        height: 140px;
+        flex-shrink: 0;
+        border-radius: 0px 0px 20px 20px;
+        margin-top: -9px;
+        display: none;
+        background: #D04969;
+        position: absolute;
+        z-index: 1000;
+    }
+
+    .contenido-card3 p {
+
+        flex-shrink: 0;
+        color: #FFF;
+        font-family: Inter;
+        font-size: 20px;
+        font-style: italic;
+        font-weight: 600;
+        line-height: 35px;
+        padding: 10px;
+        /* 175% */
+    }
+
+    .card:hover .flecha1 {
+        padding-bottom: 10px;
+        transform: rotate(180deg);
+        /* Rotamos la flecha al hacer hover para la Card 1 */
+    }
+
+    .card:hover .flecha2 {
+        padding-bottom: 10px;
+        transform: rotate(180deg);
+        /* Rotamos la flecha al hacer hover para la Card 2 */
+    }
+
+    .card:hover .flecha3 {
+        padding-bottom: 10px;
+        transform: rotate(180deg);
+        /* Rotamos la flecha al hacer hover para la Card 3 */
+    }
+
+    .contenedorco {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    form {
+        border-radius: 20px;
+        background: #CFBBC0;
+        box-shadow: 8px 8px 10px 0px rgba(0, 0, 0, 0.25), -8px -8px 10px 0px rgba(0, 0, 0, 0.25);
+        width: 728px;
+        height: 750px;
+        flex-shrink: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+
+    }
+
+    .input-group {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        justify-content: center;
+    }
+
+    .nombre,
+    .telefono,
+    .email2,
+    .mensaje {
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        padding-bottom: 25px;
+    }
+
+    input {
+        width: 572px;
+        height: 50px;
+        flex-shrink: 0;
+        border-radius: 10px;
+        border-color: transparent;
+        background: rgba(255, 255, 255, 0.60);
+    }
+
+    textarea {
+        width: 572px;
+        height: 168px;
+        flex-shrink: 0;
+        border-radius: 10px;
+        border-color: transparent;
+        background: rgba(255, 255, 255, 0.60);
+    }
+
+    .nombre label,
+    .telefono label,
+    .email2 label,
+    .mensaje label {
+        color: #1E1E1E;
+        padding-bottom: 10px;
+        font-family: Inter;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    }
+
+    .bnt {
+        width: 196px;
+        height: 50px;
+        flex-shrink: 0;
+        border-radius: 20px;
+        background: #FFF;
+        color: #D04969;
+        font-family: Inter;
+        font-size: 28px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+
+    .bnt:hover {
+        width: 196px;
+        height: 50px;
+        flex-shrink: 0;
+        border-radius: 20px;
+        background: #D04969;
+        color: #CFBBC0;
+        font-family: Inter;
+        font-size: 28px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: normal;
+    }
+
+    .hoja1 {
+        position: absolute;
+        left: 0;
+        margin-bottom: -480px;
+    }
+
+    .hoja2 {
+        position: absolute;
+        right: 0;
+        margin-bottom: -480px;
+
+    }
+
+    .boton {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 10px;
+        background: #CFBBC0;
+        box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.25), 4px 4px 4px 0px rgba(0, 0, 0, 0.25);
+        width: 350px;
+        height: 60px;
+        flex-shrink: 0;
+        margin-top: 20px;
+
+
+    }
+
+    .boton a {
+        color: #1E1E1E;
+        font-family: Inter;
+        font-size: 24px;
+        font-style: italic;
+        font-weight: 500;
+        line-height: 35px;
+        text-decoration: none;
+        /* 145.833% */
+    }
+
+    .boton:hover {
+
+        background-color: #D04969;
+    }
+
+    .boton:hover a {
+        color: #CFBBC0;
+    }
+
+    footer {
+        margin-top: 60px;
+        display: flex;
+        align-items: row;
+        justify-content: center;
+        background-color: #CFBBC0;
+        align-items: center;
+        height: 265px;
+        flex-shrink: 0;
+
+
+    }
+
+    .logofooter {
+        flex: 0.2;
+        margin-left: 40px;
+
+    }
+
+    .derechos {
+        flex: 0.7;
+        text-align: center;
+    }
+
+    .derechos p {
+        color: #1E1E1E;
+        font-family: Inter;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+
+    .emailyredes {
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        padding-left: 40px;
+        align-items: flex-start;
+        /* Alinea los elementos en la parte superior del contenedor */
+        justify-content: flex-start;
+
+
+    }
+
+    .texto {
+        padding-bottom: 10px;
+    }
+
+    .texto p {
+        color: #1E1E1E;
+        font-family: Inter;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        padding-left: 0;
+        margin: 0 !important;
+
+    }
+
+    .email {
+        display: flex;
+        flex-direction: row;
+
+        justify-content: center;
+        padding-bottom: 10px;
+    }
+
+    .email img {
+        width: 25px;
+        height: 25px;
+        flex-shrink: 0;
+    }
+
+    .email p {
+        margin: 0;
+        color: #1E1E1E;
+        font-family: Inter;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        text-decoration-line: none;
+        padding-left: 5px;
+
+    }
+
+    .redes {
+        display: flex;
+        flex-direction: row;
+
+    }
+
+    .instagram {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        margin-right: 10px;
+    }
+
+
+
+    .tiktok {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+    .tiktok a,
+    .instagram a {
+        color: #1E1E1E;
+        font-family: Inter;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        padding-left: 5px;
+        text-decoration: none;
+    }
+
+    .instagram:hover a,
+    .tiktok:hover a {
+        color: #D04969;
+        font-family: Inter;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+
+    }
+
+
+}

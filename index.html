@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <div class="banner">
+    </div>
+
+    <header>
+        <div class="container">
+            <figure class="logo">
+                <a href="#inicio">
+                    <img src="/imagenes/Texto del párrafo (1).png" alt="logo"> </a>
+            </figure>
+            <nav>
+
+                <li><a href="#quiensoy">¿Quién soy?</a></li>
+                <li><a href="#clases">Clases</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+
+            </nav>
+        </div>
+    </header>
+    <div class=visionymision>
+        <img src="imagenes/Euge-347.png" alt="">
+        <div class="textov">
+            <p>Movilidad Orgánica es un proyecto que surge con el objetivo de brindar clases de fuerza y
+                flexibilidad,
+                donde no solo se proponen ejercicios para aumentar el rango de movilidad, sino también para generar
+                mayor conciencia corporal. </p>
+            <p>
+                Aspiramos a proporcionar un espacio donde puedas dedicarte tanto a tu cuerpo
+                como a tu mente, logrando así un equilibrio integral en tu bienestar físico y emocional.
+            </p>
+        </div>
+    </div>
+
+    <div class="quiensoy">
+        <div class="titulo" id="quiensoy">
+            <h1>¿Quién soy?</h1>
+        </div>
+        <div class="contenidoq">
+            <img src="/imagenes/Euge-346.png" alt="">
+            <div class="textoq">
+                <p>¡Hola! Permíteme presentarme, soy Eugenia, la creadora de Movilidad Orgánica. Me especialicé como
+                    instructora de acrobacia aérea en 2016 y como profesora de Natha Yoga en 2022. Además, he
+                    estudiado Medicina lo suficiente como para tener conocimiento de anatomía y de biomecánica</p>
+                <p>A lo largo de los años, he explorado el movimiento a través de diversas disciplinas, en las
+                    cuales he encontrado recursos muy valiosos para preparar mi cuerpo. Esta información la comparto
+                    con mis alumnos con el objetivo de fortalecer nuestra musculatura, mejorar nuestros rangos de
+                    movilidad, cultivar la conciencia corporal y promover el cuidado del cuerpo durante el
+                    entrenamiento.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="titulo" id="clases">
+        <h1>Clases</h1>
+    </div>
+    <div class="clases">
+
+        <div class="fondo">
+            <!-- Contenedor para el fondo -->
+            <div class="contenedor-cards">
+                <div class="card card1">
+                    <div class="titulo-card" onclick="toggleContent('contenido1')">
+                        Las clases tienen una duración de una hora
+                        <img class="flecha flecha1" src="/imagenes/mingcute_down-line.png" alt="Flecha hacia abajo">
+                    </div>
+                    <div id="contenido1" class="contenido-card1">
+                        <p>Durante el primer bloque, nos centramos en la entrada en calor, la activación muscular y
+                            el fortalecimiento. En el segundo bloque, nos adentramos progresivamente en los rangos
+                            de movimiento, practicamos posturas y finalmente compensamos lo trabajado.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="card card2">
+                    <div class="titulo-card" onclick="toggleContent('contenido2')">
+                        Los ejercicios se adaptan a diferentes niveles de dificultad
+                        <img class="flecha flecha2" src="/imagenes/mingcute_down-line.png" alt="Flecha hacia abajo">
+                    </div>
+                    <div id="contenido2" class="contenido-card2">
+                        <p>Lo que nos permite personalizar el trabajo según las necesidades de cada alumno dentro de
+                            una misma clase.</p>
+                    </div>
+                </div>
+
+                <div class="card card3">
+                    <div class="titulo-card" onclick="toggleContent('contenido3')">
+                        Priorizo el trabajo consciente y pausado, respetando los procesos de cada cuerpo
+                        <img class="flecha flecha3" src="/imagenes/mingcute_down-line.png" alt="Flecha hacia abajo">
+                    </div>
+                    <div id="contenido3" class="contenido-card3">
+                        <p>Mi lema en las clases es: "Avanzar en la flexibilidad no solo implica aumentar los rangos
+                            de movimiento, sino también tener la posibilidad de sentirse cómodo en lugares donde
+                            antes no lo estabas".</p>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+
+        <div class="boton">
+            <a href="">Contactar por whatsapp</a>
+        </div>
+    </div>
+
+
+
+
+
+    <div class="contacto">
+        <div class="titulo" id="contacto">
+            <h1>Contacto</h1>
+        </div>
+        <div class="contenedorco">
+            <form action="https://formsubmit.co/movilidadorganica@gmail.com" method="POST">
+                <div class="input-group">
+                    <div class="nombre">
+                        <label for="nombre">Nombre</label>
+                        <input type="text" name="nombre" id="nombre">
+                    </div>
+                    <div class="telefono">
+                        <label for="telefono">Celular</label>
+                        <input type="text" name="telefono" id="telefono">
+                    </div>
+                    <div class="email2">
+                        <label for="email">E-mail</label>
+                        <input type="text" name="email" id="email">
+                    </div>
+                    <div class="mensaje">
+                        <label for="mensaje">Mensaje</label>
+                        <textarea name="mensaje" id="mensaje" cols="30" rows="5"></textarea>
+                    </div>
+                </div>
+                <input class="bnt" type="submit" value="Enviar">
+
+                <input type="hidden" name="_next" value="http://127.0.0.1:5501/html/contacto.html ">
+                <input type="hidden" name="_captcha" value="false">
+            </form>
+            <img class="hoja1" src="/imagenes/Diseño sin título (3) 1.png">
+            <img src="/imagenes/Diseño sin título (4) 1.png" class="hoja2">
+
+        </div>
+
+    </div>
+
+
+
+    <script src="main.js"></script>
+    </section>
+
+
+
+
+
+    <footer>
+        <div class="logofooter">
+            <img src="/imagenes/Texto del párrafo (3) 2.png" alt="">
+        </div>
+        <div class="derechos">
+            <p>© 2021 Movilidad Orgánica. Todos los derechos reservados.</p>
+        </div>
+        <div class="datosyredes">
+            <div class="email">
+                <img src="imagenes/ic_outline-email.png" alt="">
+                <p>movilidadorganica@gmail.com</p>
+            </div>
+            <div class="texto">
+                <p>¡Te invito a sumarte a la comunidad!</p>
+            </div>
+            <div class="redes">
+                <div class="instagram">
+
+                    <a href=""> <i class="fa-brands fa-instagram"></i> Instagram</a>
+                </div>
+                <div class="tiktok">
+
+                    <a href=""> <i class="fa-brands fa-tiktok"></i> TikTok</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
