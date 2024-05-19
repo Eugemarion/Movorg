@@ -22,11 +22,11 @@
                     <img src="/imagenes/logo.png"> </a>
             </figure>
             <nav>
-
-                <li><a href="#quiensoy">¿Quién soy?</a></li>
-                <li><a href="#clases">Clases</a></li>
-                <li><a href="#contacto">Contacto</a></li>
-
+                <ul>
+                    <li><a href="#quiensoy">¿Quién soy?</a></li>
+                    <li><a href="#clases">Clases</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
             </nav>
         </div>
         <div class=visionymision>
@@ -37,7 +37,7 @@
                     donde no solo se proponen ejercicios para aumentar el rango de movilidad, sino también para generar
                     mayor conciencia corporal. </p>
                 <p>
-                    Aspiramos a proporcionar un espacio donde puedas dedicarte tanto a tu cuerpo
+                    Aspiro a proporcionar un espacio donde puedas dedicarte tanto a tu cuerpo
                     como a tu mente, logrando así un equilibrio integral en tu bienestar físico y emocional.
                 </p>
             </div>
@@ -50,9 +50,9 @@
             <div class="contenidoq">
                 <img src="/imagenes/quiensoy.png" alt="">
                 <div class="textoq">
-                    <p>¡Hola! Permíteme presentarme, soy Eugenia, la creadora de Movilidad Orgánica. Me especialicé como
-                        instructora de acrobacia aérea en 2016 y como profesora de Natha Yoga en 2022. Además, he
-                        estudiado Medicina lo suficiente como para tener conocimiento de anatomía y de biomecánica</p>
+                    <p>¡Hola! Me presento, soy Eugenia, la creadora de Movilidad Orgánica. Me especialicé como
+                        instructora de acrobacia aérea en 2016 y como profesora de Natha Yoga en 2022. Además, tengo
+                        amplios conocimientos de anatomía y de biomecánica.</p>
                     <p>A lo largo de los años, he explorado el movimiento a través de diversas disciplinas, en las
                         cuales he encontrado recursos muy valiosos para preparar mi cuerpo. Esta información la comparto
                         con mis alumnos con el objetivo de fortalecer nuestra musculatura, mejorar nuestros rangos de
@@ -126,28 +126,31 @@
                 <h1>Contacto</h1>
             </div>
             <div class="contenedorco">
-                <form action="https://formsubmit.co/movilidadorganica@gmail.com" method="POST">
+                <form id="registrationForm" action="https://formsubmit.co/movilidadorganica@gmail.com" method="POST">
                     <div class="input-group">
                         <div class="nombre">
-                            <label for="nombre">Nombre</label>
-                            <input type="text" name="nombre" id="nombre">
+                            <label for="nombre">Nombre*</label>
+                            <input type="text" name="nombre" id="nombre" required>
+                            <span class="error" id="nombreError"></span>
                         </div>
                         <div class="telefono">
                             <label for="telefono">Celular</label>
                             <input type="text" name="telefono" id="telefono">
                         </div>
                         <div class="email2">
-                            <label for="email">E-mail</label>
-                            <input type="text" name="email" id="email">
+                            <label for="email">E-mail*</label>
+                            <input type="text" name="email" id="email" required>
+                            <span class="error" id="emailError"></span>
                         </div>
                         <div class="mensaje">
-                            <label for="mensaje">Mensaje</label>
-                            <textarea name="mensaje" id="mensaje" cols="30" rows="5"></textarea>
+                            <label for="mensaje">Mensaje*</label>
+                            <textarea name="mensaje" id="mensaje" cols="30" rows="5" required></textarea>
+                            <span class="error" id="mensajeError"></span>
                         </div>
                     </div>
                     <input class="bnt" type="submit" value="Enviar">
 
-                    <input type="hidden" name="_next" value="https://movilidadorganica.com.ar/#contacto ">
+                    <input type="hidden" name="_next" value="https://movilidadorganica.com.ar/#contacto">
                     <input type="hidden" name="_captcha" value="false">
                 </form>
                 <img class="hoja1" src="/imagenes/hoja1.png">

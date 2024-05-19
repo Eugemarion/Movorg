@@ -1,3 +1,7 @@
+body {
+    background-color: #FEFEFE;
+}
+
 @media (min-width: 1281px) {
 
     .banner {
@@ -28,7 +32,7 @@
 
     }
 
-    nav {
+    nav ul {
         padding: 0 17rem;
         display: flex;
         align-items: center;
@@ -42,7 +46,7 @@
     }
 
     nav li a:hover {
-        color: #D04969;
+        color: #161515;
 
         text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.30);
         font-family: Inter;
@@ -54,7 +58,7 @@
     }
 
     nav li a {
-        color: #D04969;
+        color: #161515;
         text-decoration: none;
         font-size: 24px;
         box-sizing: border-box;
@@ -105,7 +109,7 @@
 
     .textov p {
 
-        color: #1E1E1E;
+        color: 161515;
         font-family: Inter;
         font-size: 24px;
         font-style: normal;
@@ -153,7 +157,7 @@
     }
 
     .textoq p {
-        color: #1E1E1E;
+        color: 161515;
         font-family: Inter;
         font-size: 21px;
         font-style: normal;
@@ -216,7 +220,7 @@
     }
 
     .titulo-card {
-        color: #D04969;
+        color: #161515;
         font-family: Inter;
         font-size: 24px;
         font-style: italic;
@@ -250,7 +254,7 @@
     }
 
     .contenido-card1 p {
-        color: #FFF;
+        color: #FEFEFE;
 
         font-family: Inter;
         font-size: 20px;
@@ -286,7 +290,7 @@
     .contenido-card2 p {
 
         flex-shrink: 0;
-        color: #FFF;
+        color: #FEFEFE;
         font-family: Inter;
         font-size: 20px;
         font-style: italic;
@@ -318,7 +322,7 @@
     .contenido-card3 p {
 
         flex-shrink: 0;
-        color: #FFF;
+        color: #FEFEFE;
         font-family: Inter;
         font-size: 20px;
         font-style: italic;
@@ -397,7 +401,7 @@
     .telefono label,
     .email2 label,
     .mensaje label {
-        color: #1E1E1E;
+        color: 161515;
         padding-bottom: 10px;
         font-family: Inter;
         font-size: 24px;
@@ -411,7 +415,7 @@
         height: 50px;
         flex-shrink: 0;
         border-radius: 20px;
-        background: #FFF;
+        background: #FEFEFE;
         color: #D04969;
         font-family: Inter;
         font-size: 28px;
@@ -426,12 +430,16 @@
         flex-shrink: 0;
         border-radius: 20px;
         background: #D04969;
-        color: #CFBBC0;
+        color: #FEFEFE;
         font-family: Inter;
         font-size: 28px;
         font-style: normal;
         font-weight: 800;
         line-height: normal;
+    }
+
+    .error {
+        color: red;
     }
 
     .hoja1 {
@@ -463,7 +471,7 @@
     }
 
     .boton a {
-        color: #1E1E1E;
+        color: #161515;
         font-family: Inter;
         font-size: 24px;
         font-style: italic;
@@ -479,7 +487,7 @@
     }
 
     .boton:hover a {
-        color: #CFBBC0;
+        color: #FEFEFE;
     }
 
     footer {
@@ -511,7 +519,7 @@
     }
 
     .derechos p {
-        color: #1E1E1E;
+        color: #161515;
         font-family: Inter;
         font-size: 14px;
         font-style: normal;
@@ -537,7 +545,7 @@
     }
 
     .texto p {
-        color: #1E1E1E;
+        color: #161515;
         font-family: Inter;
         font-size: 14px;
         font-style: normal;
@@ -564,7 +572,7 @@
 
     .email p {
         margin: 0;
-        color: #1E1E1E;
+        color: #161515;
         font-family: Inter;
         font-size: 16px;
         font-style: normal;
@@ -601,7 +609,7 @@
 
     .tiktok a,
     .instagram a {
-        color: #1E1E1E;
+        color: #161515;
         font-family: Inter;
         font-size: 14px;
         font-style: normal;
@@ -651,7 +659,7 @@
         box-shadow: 4px 4px 10px 0px rgba(0, 0, 0, 0.20);
     }
 
-    nav {
+    nav ul {
         padding: 0 10rem;
         display: flex;
         align-items: center;
@@ -666,7 +674,7 @@
     }
 
     nav li a:hover {
-        color: #D04969;
+        color: #161515;
 
         text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.30);
         font-family: Inter;
@@ -678,7 +686,7 @@
     }
 
     nav li a {
-        color: #D04969;
+        color: #161515;
         text-decoration: none;
         font-size: 20px;
         box-sizing: border-box;
@@ -729,7 +737,7 @@
 
     .textov p {
 
-        color: #1E1E1E;
+        color: #161515;
         font-family: Inter;
         font-size: 24px;
         font-style: normal;
@@ -777,7 +785,7 @@
     }
 
     .textoq p {
-        color: #1E1E1E;
+        color: #161515;
         font-family: Inter;
         font-size: 18px;
         font-style: normal;
@@ -840,7 +848,7 @@
     }
 
     .titulo-card {
-        color: #D04969;
+        color: #161515;
         font-family: Inter;
         font-size: 24px;
         font-style: italic;
@@ -874,7 +882,7 @@
     }
 
     .contenido-card1 p {
-        color: #FFF;
+        color: #FEFEFE;
 
         font-family: Inter;
         font-size: 20px;
@@ -910,7 +918,7 @@
     .contenido-card2 p {
 
         flex-shrink: 0;
-        color: #FFF;
+        color: #FEFEFE;
         font-family: Inter;
         font-size: 20px;
         font-style: italic;
@@ -942,7 +950,7 @@
     .contenido-card3 p {
 
         flex-shrink: 0;
-        color: #FFF;
+        color: #FEFEFE;
         font-family: Inter;
         font-size: 20px;
         font-style: italic;
@@ -1021,7 +1029,7 @@
     .telefono label,
     .email2 label,
     .mensaje label {
-        color: #1E1E1E;
+        color: #161515;
         padding-bottom: 10px;
         font-family: Inter;
         font-size: 24px;
@@ -1035,7 +1043,7 @@
         height: 50px;
         flex-shrink: 0;
         border-radius: 20px;
-        background: #FFF;
+        background: #FEFEFE;
         color: #D04969;
         font-family: Inter;
         font-size: 28px;
@@ -1050,7 +1058,7 @@
         flex-shrink: 0;
         border-radius: 20px;
         background: #D04969;
-        color: #CFBBC0;
+        color: #FEFEFE;
         font-family: Inter;
         font-size: 28px;
         font-style: normal;
@@ -1087,7 +1095,7 @@
     }
 
     .boton a {
-        color: #1E1E1E;
+        color: #161515;
         font-family: Inter;
         font-size: 24px;
         font-style: italic;
@@ -1103,7 +1111,7 @@
     }
 
     .boton:hover a {
-        color: #CFBBC0;
+        color: #FEFEFE;
     }
 
     footer {
@@ -1135,7 +1143,7 @@
     }
 
     .derechos p {
-        color: #1E1E1E;
+        color: #161515;
         font-family: Inter;
         font-size: 14px;
         font-style: normal;
@@ -1161,7 +1169,7 @@
     }
 
     .texto p {
-        color: #1E1E1E;
+        color: #161515;
         font-family: Inter;
         font-size: 14px;
         font-style: normal;
@@ -1188,7 +1196,7 @@
 
     .email p {
         margin: 0;
-        color: #1E1E1E;
+        color: #161515;
         font-family: Inter;
         font-size: 16px;
         font-style: normal;
@@ -1225,7 +1233,7 @@
 
     .tiktok a,
     .instagram a {
-        color: #1E1E1E;
+        color: #161515;
         font-family: Inter;
         font-size: 14px;
         font-style: normal;
@@ -1275,7 +1283,7 @@
         box-shadow: 4px 4px 10px 0px rgba(0, 0, 0, 0.20);
     }
 
-    nav {
+    nav ul {
         padding: 0 2rem;
         display: flex;
         align-items: center;
@@ -1290,7 +1298,7 @@
     }
 
     nav li a:hover {
-        color: #D04969;
+        color: #161515;
 
         text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.30);
         font-family: Inter;
@@ -1302,7 +1310,7 @@
     }
 
     nav li a {
-        color: #D04969;
+        color: #161515;
         text-decoration: none;
         font-size: 20px;
         box-sizing: border-box;
@@ -1357,7 +1365,7 @@
 
 
         text-shadow: 0px 4px 6px rgba(0, 0, 0, 0.35);
-        color: #1E1E1E;
+        color: #161515;
         font-family: Inter;
         font-size: 24px;
         font-style: normal;
@@ -1409,7 +1417,7 @@
     }
 
     .textoq p {
-        color: #1E1E1E;
+        color: #161515;
         font-family: Inter;
         font-size: 18px;
         font-style: normal;
@@ -1474,7 +1482,7 @@
     }
 
     .titulo-card {
-        color: #D04969;
+        color: #161515;
         font-family: Inter;
         font-size: 16px;
         font-style: italic;
@@ -1508,7 +1516,7 @@
     }
 
     .contenido-card1 p {
-        color: #FFF;
+        color: #FEFEFE;
 
         font-family: Inter;
         font-size: 14px;
@@ -1544,7 +1552,7 @@
     .contenido-card2 p {
 
         flex-shrink: 0;
-        color: #FFF;
+        color: #FEFEFE;
         font-family: Inter;
         font-size: 14px;
         font-style: italic;
@@ -1576,7 +1584,7 @@
     .contenido-card3 p {
 
         flex-shrink: 0;
-        color: #FFF;
+        color: #FEFEFE;
         font-family: Inter;
         font-size: 14px;
         font-style: italic;
@@ -1655,7 +1663,7 @@
     .telefono label,
     .email2 label,
     .mensaje label {
-        color: #1E1E1E;
+        color: #161515;
         padding-bottom: 10px;
         font-family: Inter;
         font-size: 18px;
@@ -1669,7 +1677,7 @@
         height: 40px;
         flex-shrink: 0;
         border-radius: 20px;
-        background: #FFF;
+        background: #FEFEFE;
         color: #D04969;
         font-family: Inter;
         font-size: 20px;
@@ -1684,7 +1692,7 @@
         flex-shrink: 0;
         border-radius: 20px;
         background: #D04969;
-        color: #CFBBC0;
+        color: #FEFEFE;
         font-family: Inter;
         font-size: 28px;
         font-style: normal;
@@ -1723,7 +1731,7 @@
     }
 
     .boton a {
-        color: #1E1E1E;
+        color: #161515;
         font-family: Inter;
         font-size: 20px;
         font-style: italic;
@@ -1739,7 +1747,7 @@
     }
 
     .boton:hover a {
-        color: #CFBBC0;
+        color: #FEFEFE;
     }
 
     footer {
@@ -1756,8 +1764,8 @@
     }
 
     .logofooter {
-        flex: 0.2;
-        margin-left: 40px;
+        flex: 0.4;
+
 
     }
 
@@ -1766,12 +1774,12 @@
     }
 
     .derechos {
-        flex: 0.7;
-        text-align: center;
+        flex: 0.6;
+        text-align: start;
     }
 
     .derechos p {
-        color: #1E1E1E;
+        color: #161515;
         font-family: Inter;
         font-size: 12px;
         font-style: normal;
@@ -1787,7 +1795,7 @@
         padding-left: 40px;
         align-items: flex-start;
         justify-content: flex-start;
-
+        flex: 0.8;
 
     }
 
@@ -1796,7 +1804,7 @@
     }
 
     .texto p {
-        color: #1E1E1E;
+        color: #161515;
         font-family: Inter;
         font-size: 12px;
         font-style: normal;
@@ -1823,7 +1831,7 @@
 
     .email p {
         margin: 0;
-        color: #1E1E1E;
+        color: #161515;
         font-family: Inter;
         font-size: 12px;
         font-style: normal;
@@ -1860,7 +1868,7 @@
 
     .tiktok a,
     .instagram a {
-        color: #1E1E1E;
+        color: #161515;
         font-family: Inter;
         font-size: 12px;
         font-style: normal;
@@ -1909,7 +1917,7 @@
         box-shadow: 4px 4px 10px 0px rgba(0, 0, 0, 0.20);
     }
 
-    nav {
+    nav ul {
         display: flex;
         align-items: center;
         justify-content: row;
@@ -1926,7 +1934,7 @@
 
 
     nav li a {
-        color: #D04969;
+        color: #161515;
         text-decoration: none;
         font-size: 14px;
         box-sizing: border-box;
@@ -1982,7 +1990,7 @@
 
 
         text-shadow: 0px 4px 6px rgba(0, 0, 0, 0.35);
-        color: #1E1E1E;
+        color: #161515;
         font-family: Inter;
         font-size: 18px;
         font-style: normal;
@@ -2034,7 +2042,7 @@
     }
 
     .textoq p {
-        color: #1E1E1E;
+        color: #161515;
         font-family: Inter;
         font-size: 16px;
         font-style: normal;
@@ -2099,7 +2107,7 @@
     }
 
     .titulo-card {
-        color: #D04969;
+        color: #161515;
         font-family: Inter;
         font-size: 12px;
         font-style: italic;
@@ -2133,7 +2141,7 @@
     }
 
     .contenido-card1 p {
-        color: #FFF;
+        color: #FEFEFE;
 
         font-family: Inter;
         font-size: 12px;
@@ -2169,7 +2177,7 @@
     .contenido-card2 p {
 
         flex-shrink: 0;
-        color: #FFF;
+        color: #FEFEFE;
         font-family: Inter;
         font-size: 12px;
         font-style: italic;
@@ -2201,7 +2209,7 @@
     .contenido-card3 p {
 
         flex-shrink: 0;
-        color: #FFF;
+        color: #FEFEFE;
         font-family: Inter;
         font-size: 12px;
         font-style: italic;
@@ -2280,7 +2288,7 @@
     .telefono label,
     .email2 label,
     .mensaje label {
-        color: #1E1E1E;
+        color: #161515;
         padding-bottom: 10px;
         font-family: Inter;
         font-size: 16px;
@@ -2294,7 +2302,7 @@
         height: 35px;
         flex-shrink: 0;
         border-radius: 20px;
-        background: #FFF;
+        background: #FEFEFE;
         color: #D04969;
         font-family: Inter;
         font-size: 16px;
@@ -2309,7 +2317,7 @@
         flex-shrink: 0;
         border-radius: 20px;
         background: #D04969;
-        color: #CFBBC0;
+        color: #FEFEFE;
         font-family: Inter;
         font-size: 28px;
         font-style: normal;
@@ -2348,7 +2356,7 @@
     }
 
     .boton a {
-        color: #1E1E1E;
+        color: #161515;
         font-family: Inter;
         font-size: 16px;
         font-style: italic;
@@ -2364,7 +2372,7 @@
     }
 
     .boton:hover a {
-        color: #CFBBC0;
+        color: #FEFEFE;
     }
 
     footer {
@@ -2381,22 +2389,23 @@
     }
 
     .logofooter {
-        flex: 0.2;
-        margin-left: 20px;
+        flex: 0.5;
 
     }
 
     .logofooter img {
         height: 120px;
+        align-items: start;
     }
 
     .derechos {
-        flex: 0.7;
-        text-align: center;
+        flex: 0.5;
+        text-align: start;
+        margin-right: 10px;
     }
 
     .derechos p {
-        color: #1E1E1E;
+        color: #161515;
         font-family: Inter;
         font-size: 9px;
         font-style: normal;
@@ -2408,12 +2417,12 @@
         height: auto;
         display: flex;
         flex-direction: column;
-        margin: 0;
+        margin-right: 10px;
         padding-left: 10px;
         padding-right: 10px;
         align-items: flex-start;
         justify-content: flex-start;
-
+        flex: 1;
 
     }
 
@@ -2422,7 +2431,7 @@
     }
 
     .texto p {
-        color: #1E1E1E;
+        color: #161515;
         font-family: Inter;
         font-size: 10px;
         font-style: normal;
@@ -2449,7 +2458,7 @@
 
     .email p {
         margin: 0;
-        color: #1E1E1E;
+        color: #161515;
         font-family: Inter;
         font-size: 10px;
         font-style: normal;
@@ -2486,7 +2495,7 @@
 
     .tiktok a,
     .instagram a {
-        color: #1E1E1E;
+        color: #161515;
         font-family: Inter;
         font-size: 10px;
         font-style: normal;
@@ -2535,11 +2544,11 @@
         box-shadow: 4px 4px 10px 0px rgba(0, 0, 0, 0.20);
     }
 
-    nav {
+    nav ul {
         display: flex;
         align-items: center;
         justify-content: row;
-        margin-left: -50px;
+        margin-left: -80px;
     }
 
     nav li {
@@ -2552,7 +2561,7 @@
 
 
     nav li a {
-        color: #D04969;
+        color: #161515;
         text-decoration: none;
         font-size: 12px;
         box-sizing: border-box;
@@ -2608,7 +2617,7 @@
 
 
         text-shadow: 0px 4px 6px rgba(0, 0, 0, 0.35);
-        color: #1E1E1E;
+        color: #161515;
         font-family: Inter;
         font-size: 14px;
         font-style: normal;
@@ -2660,7 +2669,7 @@
     }
 
     .textoq p {
-        color: #1E1E1E;
+        color: #161515;
         font-family: Inter;
         font-size: 14px;
         font-style: normal;
@@ -2725,7 +2734,7 @@
     }
 
     .titulo-card {
-        color: #D04969;
+        color: #161515;
         font-family: Inter;
         font-size: 10px;
         font-style: italic;
@@ -2759,7 +2768,7 @@
     }
 
     .contenido-card1 p {
-        color: #FFF;
+        color: #FEFEFE;
 
         font-family: Inter;
         font-size: 12px;
@@ -2795,7 +2804,7 @@
     .contenido-card2 p {
 
         flex-shrink: 0;
-        color: #FFF;
+        color: #FEFEFE;
         font-family: Inter;
         font-size: 12px;
         font-style: italic;
@@ -2827,7 +2836,7 @@
     .contenido-card3 p {
 
         flex-shrink: 0;
-        color: #FFF;
+        color: #FEFEFE;
         font-family: Inter;
         font-size: 12px;
         font-style: italic;
@@ -2906,7 +2915,7 @@
     .telefono label,
     .email2 label,
     .mensaje label {
-        color: #1E1E1E;
+        color: #161515;
         padding-bottom: 10px;
         font-family: Inter;
         font-size: 16px;
@@ -2920,7 +2929,7 @@
         height: 35px;
 
         border-radius: 20px;
-        background: #FFF;
+        background: #FEFEFE;
         color: #D04969;
         font-family: Inter;
         font-size: 14px;
@@ -2962,7 +2971,7 @@
     }
 
     .boton a {
-        color: #1E1E1E;
+        color: #161515;
         font-family: Inter;
         font-size: 16px;
         font-style: italic;
@@ -2978,7 +2987,7 @@
     }
 
     .boton:hover a {
-        color: #CFBBC0;
+        color: #FEFEFE;
     }
 
     footer {
@@ -2995,22 +3004,23 @@
     }
 
     .logofooter {
-        flex: 0.5;
-        margin-left: 10px;
+        flex: 2;
 
     }
 
     .logofooter img {
         height: 110px;
+        align-items: start;
     }
 
     .derechos {
-        flex: 0.5;
-        text-align: center;
+        flex: 1;
+        text-align: start;
+        margin-right: 10px;
     }
 
     .derechos p {
-        color: #1E1E1E;
+        color: #161515;
         font-family: Inter;
         font-size: 7px;
         font-style: normal;
@@ -3019,10 +3029,12 @@
     }
 
     .emailyredes {
+        flex: 1;
         height: auto;
         display: flex;
         flex-direction: column;
-        margin: 0;
+        margin-left: 10px;
+        margin-right: 10px;
         padding-left: 5px;
         padding-right: 5px;
         align-items: flex-start;
@@ -3036,7 +3048,7 @@
     }
 
     .texto p {
-        color: #1E1E1E;
+        color: #161515;
         font-family: Inter;
         font-size: 8px;
         font-style: normal;
@@ -3063,7 +3075,7 @@
 
     .email p {
         margin: 0;
-        color: #1E1E1E;
+        color: #161515;
         font-family: Inter;
         font-size: 8px;
         font-style: normal;
@@ -3100,7 +3112,7 @@
 
     .tiktok a,
     .instagram a {
-        color: #1E1E1E;
+        color: #161515;
         font-family: Inter;
         font-size: 8px;
         font-style: normal;
